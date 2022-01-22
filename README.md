@@ -255,7 +255,7 @@ It doesn't work! Git doesn't know which change to keep. To fix the problem, we m
 Merging changes is common. Below are other options for dealing with conflicts:
 
 * `git checkout --theirs`: Use the remote version of the file
-* `git checkout --ours`: Use the local version of the file
+* `git checkout --ours`: Use the local version of the file.
 
 Sometimes you can't pull because you have *uncommitted* changes that conflict with the remote repository. In this case, either commit the 
 changes, or throw them away by running `git checkout .`
